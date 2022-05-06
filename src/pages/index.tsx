@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Layout } from "../components/layout2"
-import { Seo } from "../components/seo2"
+import { Layout } from "../components/layout"
+import { Seo } from "../components/seo"
 
 const IndexPage = () => {
   return (
