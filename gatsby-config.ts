@@ -7,7 +7,7 @@ require("dotenv").config({
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Boards`,
+    title: `Title`,
     description: `ここに説明が入ります`,
     siteUrl: process.env.GATSBY_SITE_URL,
     lang: `ja`,
@@ -28,8 +28,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `RalaCode`,
-        short_name: `RalaCode`,
+        name: `Title`,
+        short_name: `Title`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#6297b1`,
