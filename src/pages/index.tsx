@@ -1,20 +1,12 @@
 import * as React from "react"
-import { Hero } from "../components/hero"
-import { Layout } from "../components/layout"
-import { Seo } from "../components/seo"
-import { Concept } from "../components/concept"
-import { Posts } from "../components/posts"
+import { Layout } from "../components/layout2"
+import { Seo } from "../components/seo2"
 
 const IndexPage = () => {
   return (
     <Layout>
       <Seo />
-
-      <Hero />
-
-      <Concept />
-
-      <Posts />
+      <div>Hello, world!</div>
     </Layout>
   )
 }
